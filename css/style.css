@@ -1,0 +1,48 @@
+
+
+body {
+  font-family: helvetica;
+}
+
+a {
+  text-decoration: none;
+}
+
+#logo {
+  margin-left: 20px;
+}
+
+.title {
+  color: pink;
+  position: absolute;
+  left: 220px;
+  top: 200px;
+  font-size: 100px;
+}
+
+#organisms {
+  position: absolute;
+  left: 500px;
+  top: 130px;
+}
+
+#organisms1 {
+  position: absolute;
+  left: 400px;
+  top: 150px;
+}
+
+#organisms2 {
+  position: absolute;
+  left: 1000px;
+  top: 70px;
+  z-index: -10;
+}
+
+#organismsMore {
+  position: absolute;
+  left: 380px;
+  top: 400px;
+  font-size: 20px;
+  color: grey;
+}

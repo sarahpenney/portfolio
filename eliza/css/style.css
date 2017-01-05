@@ -1,0 +1,72 @@
+section {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+form input {
+  font-size: 14px;
+  text-align: left;
+}
+
+#session {
+  height: 300px;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-y: scroll;
+}
+
+#session ul {
+  list-style: none;
+  padding-left: 40px;
+}
+
+#session ul li {
+  margin: 0;
+  list-style: none;
+  text-align: left;
+  padding-right: 40px;
+}
+
+#session ul li span {
+  display: inline-block;
+  width: 60px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#session ul li span.eliza {
+  color: #b383dc;
+  text-align: left;
+}
+
+#session ul li span.you {
+  color: #4e6dbc;
+  text-align: left;
+}
+
+.elizaButtons {
+  border: 1px solid lightgrey;
+  background-color: white;
+}
+
+.elizaBody {
+  background-image: url('https://s-media-cache-ak0.pinimg.com/236x/ee/d5/cb/eed5cb9f88a932f56863a58e1c7b96dc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#resetButton {
+  margin-left: 20px;
+}
+
+#talkButton {
+  margin-left: 100px;
+}
+
+a {
+  position: absolute;
+  top: 5px;
+  left: 48%;
+  top: 75%;
+}
