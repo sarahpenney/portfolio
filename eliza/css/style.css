@@ -70,3 +70,9 @@ a {
   left: 48%;
   top: 75%;
 }
+
+.back {
+  position: absolute;
+  left: -30px;
+  top: -10px;
+}
