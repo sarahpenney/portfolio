@@ -74,7 +74,7 @@ ul {
 
 #organismsMore {
   position: absolute;
-  left: 380px;
+  left: 400px;
   top: 400px;
   font-size: 20px;
   color: grey;
@@ -109,7 +109,7 @@ ul {
 
 #reinMore {
   position: absolute;
-  left: 4250px;
+  left: 4290px;
   top: 400px;
   font-size: 20px;
   color: grey;
@@ -118,25 +118,26 @@ ul {
 
 
 #squawkTitle {
-left: 2000px;
+  position: absolute;
+left: 2300px;
 top: 160px;
 }
 
 #squawk {
   position: absolute;
-  left: 2250px;
+  left: 2550px;
   top: 140px;
 }
 
 #squawk1 {
   position: absolute;
-  left: 2740px;
+  left: 3040px;
   top: 100px;
 }
 
 #squawkMore {
   position: absolute;
-  left: 2150px;
+  left: 2470px;
   top: 450px;
   font-size: 20px;
   color: grey;
@@ -238,4 +239,21 @@ body {
     to {
         opacity: 1;
     }
+}
+
+
+/*//////////////////////////SLIDING TO/////////////////////////*/
+#section1 {
+  position: absolute;
+  width: 20px;
+  height: 100px;
+  background-color: pink;
+}
+
+#section2 {
+  position: absolute;
+  width: 20px;
+  height: 100px;
+  /*background-color: pink;*/
+  left: 2150px;
 }
